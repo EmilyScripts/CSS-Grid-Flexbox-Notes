@@ -1,0 +1,82 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: row;
+  /*flex-direction can be set to column*/
+}
+
+	///////////////////////////////////////////////////////
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  justify-content: space-around;
+  /*justify-content used for positioning in the box*/
+}
+
+	////////////////////////////////////////////////////////
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.logout {
+  margin-left: auto;
+  /*pushes items to the right*/
+}
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  justify-content: flex-end;
+  /*flex-end needed to keep them to the right first*/
+}
+
+.home {
+  margin-right: auto
+  /*pushes home to the left while others fixed to the right*/
+}
+
+	///////////////////////////////////////////////////////////
+
+	/*responsiveness*/
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.container > div {
+  flex: 1;
+  /*flex does the maths for you*/
+}
+
+.search {
+  flex: 2;
+  /*how to target just one so its response is different*/
+}
+
+	/////////////////////////////////////////////////////////////
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /*how to center align something in a box*/
+  /*are used as an x and y axis for moving items*/
+}
+
+	//////////////////////////////////////////////////////////////
+
+.item1 {
+  order: 0;
+  /*can redorder items in flex by givin it a num less than 0*/
+  /*put item to end by giving value of 1*/
+}
+
+	//////////////////////////////////////////////////////////////
+
+/*can use flex-flow to set direction and flow in one*/
